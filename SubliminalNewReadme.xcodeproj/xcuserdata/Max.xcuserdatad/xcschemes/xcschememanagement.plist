@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Integration Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>SubliminalNewReadme.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>50F4CAF718DFAB00005F4C8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50F4CB7D18DFAC15005F4C8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
