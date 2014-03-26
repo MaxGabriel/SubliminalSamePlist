@@ -101,9 +101,10 @@
 		50F4CB0318DFAB00005F4C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50F4CB0518DFAB00005F4C8E /* SubliminalNewReadmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubliminalNewReadmeTests.m; sourceTree = "<group>"; };
 		50F4CB6C18DFAC0A005F4C8E /* Subliminal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Subliminal.xcodeproj; path = Subliminal/Subliminal.xcodeproj; sourceTree = "<group>"; };
-		50F4CB8D18DFAC15005F4C8E /* SubliminalNewReadme (Integration Tests).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SubliminalNewReadme (Integration Tests).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F4CB8D18DFAC15005F4C8E /* MyCoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F4CB9218DFAC5C005F4C8E /* Integration Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Integration Tests.xcconfig"; path = "Subliminal/Supporting Files/Xcode/Integration Tests.xcconfig"; sourceTree = "<group>"; };
 		50F4CB9618DFAD27005F4C8E /* ATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATest.m; sourceTree = "<group>"; };
+		50F4CBAE18DFB041005F4C8E /* Integration Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Integration Tests copy-Info.plist"; path = "/Users/Max/Documents/Clones/throwaway/SubliminalNewReadme/Integration Tests copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +150,7 @@
 				50F4CAFF18DFAB00005F4C8E /* SubliminalNewReadmeTests */,
 				50F4CAD918DFAB00005F4C8E /* Frameworks */,
 				50F4CAD818DFAB00005F4C8E /* Products */,
+				50F4CBAE18DFB041005F4C8E /* Integration Tests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,7 +159,7 @@
 			children = (
 				50F4CAD718DFAB00005F4C8E /* SubliminalNewReadme.app */,
 				50F4CAF818DFAB00005F4C8E /* SubliminalNewReadmeTests.xctest */,
-				50F4CB8D18DFAC15005F4C8E /* SubliminalNewReadme (Integration Tests).app */,
+				50F4CB8D18DFAC15005F4C8E /* MyCoolApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,7 +292,7 @@
 			);
 			name = "Integration Tests";
 			productName = SubliminalNewReadme;
-			productReference = 50F4CB8D18DFAC15005F4C8E /* SubliminalNewReadme (Integration Tests).app */;
+			productReference = 50F4CB8D18DFAC15005F4C8E /* MyCoolApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -614,6 +616,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubliminalNewReadme/SubliminalNewReadme-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SubliminalNewReadme/SubliminalNewReadme-Info.plist";
+				PRODUCT_NAME = MyCoolApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -627,6 +630,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubliminalNewReadme/SubliminalNewReadme-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SubliminalNewReadme/SubliminalNewReadme-Info.plist";
+				PRODUCT_NAME = MyCoolApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -650,6 +654,7 @@
 				50F4CB0B18DFAB00005F4C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50F4CB0C18DFAB00005F4C8E /* Build configuration list for PBXNativeTarget "SubliminalNewReadmeTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +663,7 @@
 				50F4CB0E18DFAB00005F4C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50F4CB8A18DFAC15005F4C8E /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
 			isa = XCConfigurationList;

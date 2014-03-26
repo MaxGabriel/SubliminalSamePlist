@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Integration Tests copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Integration Tests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>SubliminalNewReadme.xcscheme</key>
 		<dict>
@@ -28,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>50F4CB7D18DFAC15005F4C8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50F4CB9818DFB041005F4C8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
